@@ -10,110 +10,391 @@
     </head>
 
     <body>
-       <div class="container py-4">
+       <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
 
-        <div class="row shadow-lg rounded-4 overflow-hidden">
-          <aside class="col-12 col-lg-4 sidebar p-4">
+    <div class="container">
 
-            <div class="text-center mb-4">
-              <img
-              src="img/sand.png"
-              alt="photo"
-              class="profile-img mb-3">
-    
-              <h1 class="text-white fs-3">Mogom Maurelle Sandy</h1>
+      <a class="navbar-brand fw-bold" href="#home">SANDY</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-              <p class="text-muted">Étudiante en informatique et web engineering</p>
-            </div>
-
-            <section class="mb-4">
-              <h2 class="section-title">INFO</h2>
-
-              <p class="text-light small mb-2">sandymaurel50@yahoo.com</p>
-              <p class="text-light small mb-2">+49 15560960406</p>
-
-            </section>
-
-            <section class="mb-4">
-              <div class="d-flex flex-wrap gap-2">
-                <span class="skill-pill">HTML</span>
-                <span class="skill-pill">CSS</span>
-                <span class="skill-pill">Java</span>
-                <span class="skill-pill">Python</span>
-                <span class="skill-pill">Bootstrap</span>
-              </div>
-
-            </section>
-
-
-            <section>
-
-              <h2 class="section-title">LANGUAGES</h2>
-              <p class="text-light mb-1">Français</p>
-              <p class="text-light mb-1">Deutsch</p>
-              <p class="text-light">English</p>
-
-            </section>
-
-          </aside>
-
-          <main class="col-12 col-lg-8 bg-white p-4">
-
-            <!-- about -->
-            <section class="mb-5">
-
-              <h2 class="main-title">PROFILE</h2>
-              <p>Motivated student in web engineering and
-                 computer science. Passionate about web
-                 development, responsive design and modern
-                 technologies</p>
-
-            </section>
-
-            <!-- formation -->
-            <section class="mb-5">
-
-              <h2 class="main-title">EDUCATION</h2>
-
-                <div class="timeline-item mb-4">
-
-                  <h3 class="fs-5 fw-bold">HTW Saar</h3>
-
-                  <p class="text-primary mb-1">Bachelor of Science</p>
-
-                  <small class="text-muted">2025 - today</small>
-
-                </div>
-
-                <div class="timeline-item">
-
-                  <h3 class="fs-5 fw-bold">Goethe Institut</h3>
-                  <p class="text-primary mb-1">German Courses</p>
-                  <small class="text-muted">2023 - 2025</small>
-
-                </div>
-
-            </section>
-
-            <!-- experience -->
-            <section>
-              <h2 class="main-title">EXPERIENCE</h2>
-
-              <div class="timeline-item">
-
-                <h3 class="fs-5 fw-bold">Web Projects</h3>
-                <p>Creation of responsive websites using
-                   HTML, CSS and Bootstrap.</p>
-
-              </div>
-
-            </section>
-
-          </main>
-
-        </div>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto gap-lg-3">
+        <li class="nav-item">
+         <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        </ul>
 
       </div>
+
+    </div>
+
+  </nav>
+
+  <header id="home" class="hero-section d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-12 col-lg-7">
+          <p class="hero-subtitle">WEB ENGINEERING STUDENT</p>
+           <!-- typing effect -->
+          <h3 class="typing-text"></h3>
+          <h1 class="hero-title">MOGOM<br>
+                                 MAURELLE<br>
+                                 SANDY</h1>
+          <p class="hero-text">Passionate about web development,
+                               responsive design and modern
+                               technologies.</p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="#contact" class="btn custom-btn btn-lg">Contact Me</a>
+            <a href="cv.pdf" download class="btn btn-outline-light btn-lg">
+              <i class="bi bi-download"></i>Download CV</a>
+          </div>
+       </div>
+       <!-- RIGHT -->
+       <div class="col-12 col-lg-5 text-center">
+          <div class="glass-card profile-card p-4">
+            <img src="img/sand.png" alt="photo" class="img-fluid profile-img">
+          </div>
+       </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section-padding reveal">
+    <div class="container">
+      <div class="glass-card p-5">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-text">Student in computer science and web
+                                    engineering at HTW Saar.
+                                    Interested in frontend development,
+                                    UI design and responsive websites.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="row g-3">
+              <div class="col-6">
+                <div class="mini-card text-center p-3">
+                  <h3>2+</h3>
+                  <p>Years Learning</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="mini-card text-center p-3">
+                  <h3>5+</h3>
+                  <p>Projects</p>
+                </div>
+              </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+
+  <section id="skills" class="section-padding reveal">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">Skills</h2>
+      <div class="row g-4">
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="glass-card skill-card text-center p-4">
+            <i class="bi bi-filetype-html skill-icon"></i>
+            <h3 class="mt-3">HTML</h3>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="glass-card skill-card text-center p-4">
+            <i class="bi bi-filetype-css skill-icon"></i>
+            <h3 class="mt-3">CSS</h3>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="glass-card skill-card text-center p-4">
+            <i class="bi bi-bootstrap skill-icon"></i>
+            <h3 class="mt-3">Bootstrap</h3>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="glass-card skill-card text-center p-4">
+            <i class="bi bi-code-slash skill-icon"></i>
+            <h3 class="mt-3">Java</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section-padding reveal">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">Education</h2>
+      <div class="accordion accordion-flush" id="educationAccordion">
+      <!-- HTW -->
+        <div class="accordion-item glass-card mb-4">
+          <h2 class="accordion-header">
+          <button class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#htw">HTW Saar</button>
+          </h2>
+            <div id="htw"
+                 class="accordion-collapse collapse"
+                 data-bs-parent="#educationAccordion">
+              <div class="accordion-body">
+                <h4>Bachelor of Science</h4>
+                <p>Web Informatik</p>
+                <small>2025 - today</small>
+              </div>
+            </div>
+        </div>
+
+        <!-- GOETHE -->
+        <div class="accordion-item glass-card mb-4">
+          <h2 class="accordion-header">
+          <button class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#goethe">Goethe Institut</button>
+          </h2>
+          <div id="goethe"
+               class="accordion-collapse collapse"
+               data-bs-parent="#educationAccordion">
+            <div class="accordion-body">
+              <h4>Deutschkurs</h4>
+              <p>Goethe Zertifikat</p>
+              <small>2023 - 2025</small>
+            </div>
+         </div>
+       </div>
+     </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+
+  <section id="projects" class="section-padding reveal">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">Projects</h2>
+      <div class="row g-4">
+      <!-- PROJECT 1 -->
+        <div class="col-lg-6">
+          <div class="glass-card project-card p-4">
+            <h3>Responsive CV Website</h3>
+            <p>Modern responsive portfolio
+              developed using Bootstrap and CSS.</p>
+            <button class="btn btn-outline-light mt-3"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#project1">More Details</button>
+            <div class="collapse mt-3" id="project1">
+              <p>Responsive layout with Bootstrap
+                grid system, cards, navbar and
+                mobile adaptation.</p>
+            </div>
+          </div>
+        </div>
+        <!-- PROJECT 2 -->
+        <div class="col-lg-6">
+          <div class="glass-card project-card p-4">
+            <h3>Java Console Project</h3>
+              <p>Small Java project created during
+                 programming practice.</p>
+              <button class="btn btn-outline-light mt-3"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#project2">More Details</button>
+              <div class="collapse mt-3" id="project2">
+                <p>Console application using
+                   conditions, loops and methods.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section-padding reveal">
+    <div class="container">
+      <div class="glass-card p-5 text-center">
+        <h2 class="section-title mb-5">Contact</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="contact-box p-4">
+              <i class="bi bi-envelope contact-icon"></i>
+              <p class="mt-3">sandymaurel50@yahoo.com</p>
+            </div>
+            </div>
+              <div class="col-md-4">
+                <div class="contact-box p-4">
+                  <i class="bi bi-telephone contact-icon"></i>
+                  <p class="mt-3">+49 15560960406</p>
+                </div>
+             </div>
+             <div class="col-md-4">
+              <div class="contact-box p-4">
+              <i class="bi bi-geo-alt contact-icon"></i>
+              <p class="mt-3">Großrosseln</p>
+              </div>
+            </div>
+          </div>
+       </div>
+     </div>
+    </section>
+
+  <!-- FOOTER -->
+
+  <footer class="text-center py-4">
+    <p>© 2026 Sandy Portfolio</p>
+  </footer>
+
+  <!-- TOP BUTTON -->
+
+  <button class="top-btn">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  ></script>
+
+  <script>
+
+    // navbar scroll effect
+
+    const navbar =
+      document.querySelector(".custom-navbar");
+
+    window.addEventListener("scroll", () => {
+
+      if (window.scrollY > 50) {
+
+        navbar.classList.add("navbar-scrolled");
+
+      } else {
+
+        navbar.classList.remove("navbar-scrolled");
+      }
+
+    });
+
+
+    // reveal animation
+
+    const reveals =
+      document.querySelectorAll(".reveal");
+
+    function revealSections() {
+
+      const triggerBottom =
+        window.innerHeight * 0.8;
+
+      reveals.forEach((section) => {
+
+        const sectionTop =
+          section.getBoundingClientRect().top;
+
+        if (sectionTop < triggerBottom) {
+
+          section.classList.add("active");
+        }
+
+      });
+
+    }
+
+    window.addEventListener(
+      "scroll",
+      revealSections
+    );
+
+    revealSections();
+
+
+    // typing effect
+
+    const text =
+      "Creative Web Engineering Student";
+
+    const typingText =
+      document.querySelector(".typing-text");
+
+    let i = 0;
+
+    function typingEffect() {
+
+      if (i < text.length) {
+
+        typingText.innerHTML +=
+          text.charAt(i);
+
+        i++;
+
+        setTimeout(typingEffect, 70);
+      }
+
+    }
+
+    typingEffect();
+
+
+    // top button
+
+    const topButton =
+      document.querySelector(".top-btn");
+
+    window.addEventListener("scroll", () => {
+
+      if (window.scrollY > 300) {
+
+        topButton.classList.add(
+          "show-top-btn"
+        );
+
+      } else {
+
+        topButton.classList.remove(
+          "show-top-btn"
+        );
+      }
+
+    });
+
+    topButton.addEventListener("click", () => {
+
+      window.scrollTo({
+
+        top: 0,
+
+        behavior: "smooth"
+
+      });
+
+    });
+
+  </script>
 
 
     </body>
