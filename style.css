@@ -379,3 +379,43 @@ footer {
   }
 
 }
+/* LANGUAGES */
+
+.language-card {
+
+  transition: 0.3s;
+}
+
+.language-card:hover {
+
+  transform: translateY(-10px);
+}
+
+.language-icon {
+
+  font-size: 2.5rem;
+
+  color: #818cf8;
+}
+
+.progress {
+
+  height: 10px;
+
+  background:
+    rgba(255,255,255,0.1);
+
+  border-radius: 20px;
+
+  overflow: hidden;
+}
+
+.progress-bar {
+
+  background:
+    linear-gradient(
+      90deg,
+      #6366f1,
+      #8b5cf6
+    );
+}
