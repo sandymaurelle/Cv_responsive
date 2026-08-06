@@ -85,11 +85,9 @@
     <div class="container">
       <div class="glass-card p-5">
         <div class="row align-items-center g-4">
-          <div class="col-lg-6">
-            <h2 class="section-title">About Me</h2>
-            <p class="section-text"># Über mich
-
-Ich bin Studentin der Informatik und des Web-Engineerings an der HTW Saar. Ich interessiere mich für Webentwicklung und moderne Technologien und erweitere meine Kenntnisse kontinuierlich durch Studium und praktische Projekte.</br>
+        <div class="col-12"></div>
+            <h2 class="section-title text-center">About Me</h2>
+            <p class="section-text">Ich bin Studentin der Informatik und des Web-Engineerings an der HTW Saar. Ich interessiere mich für Webentwicklung und moderne Technologien und erweitere meine Kenntnisse kontinuierlich durch Studium und praktische Projekte.</br>
 
 Technisch verfüge ich über Kenntnisse in HTML, CSS, Java, Python, Webentwicklung sowie IT-Anwendungen und Microsoft Office.
 
@@ -110,35 +108,85 @@ Ich spreche Deutsch, Französisch, ich lerne gerade Englisch und arbeite gerne i
 
   <section id="skills" class="section-padding reveal">
     <div class="container">
-      <h2 class="section-title text-center mb-5">Skills</h2>
-      <div class="row g-4">
-        <div class="col-6 col-md-4 col-lg-3">
-          <div class="glass-card skill-card text-center p-4">
-            <i class="bi bi-filetype-html skill-icon"></i>
-            <h3 class="mt-3">HTML</h3>
-          </div>
+
+        <h2 class="section-title text-center mb-5">Kompetenzen</h2>
+
+        <div class="row g-4">
+
+            <!-- Web -->
+            <div class="col-md-6">
+                <div class="glass-card skill-box p-4 h-100">
+                    <h3>🌐 Webentwicklung</h3>
+
+                    <p>✓ HTML5 & CSS3</p>
+                    <p>✓ Responsives Design</p>
+                    <p>✓ Bootstrap</p>
+                    <p>✓ JavaScript (Grundlagen)</p>
+
+                </div>
+            </div>
+
+            <!-- Programmierung -->
+            <div class="col-md-6">
+                <div class="glass-card skill-box p-4 h-100">
+                    <h3>💻 Programmierung</h3>
+
+                    <p>✓ Python</p>
+                    <p>✓ Programmiersprache C</p>
+                    <p>✓ Algorithmik</p>
+                    <p>✓ Datenstrukturen (Grundlagen)</p>
+
+                </div>
+            </div>
+
+            <!-- Design -->
+            <div class="col-md-6">
+                <div class="glass-card skill-box p-4 h-100">
+                    <h3>🎨 Design & UI</h3>
+
+                    <p>✓ Figma</p>
+                    <p>✓ UI/UX Design</p>
+                    <p>✓ Web-Prototypen</p>
+                    <p>✓ Ästhetik & Ergonomie</p>
+
+                </div>
+            </div>
+
+            <!-- Math -->
+            <div class="col-md-6">
+                <div class="glass-card skill-box p-4 h-100">
+                    <h3>📚 Mathematik & Logik</h3>
+
+                    <p>✓ Statistik</p>
+                    <p>✓ Logik</p>
+                    <p>✓ Logische und digitale Systeme</p>
+
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="col-12">
+                <div class="glass-card skill-box p-4">
+
+                    <h3>🛠 Entwicklungstools</h3>
+
+                    <div class="tool-list">
+
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>VS Code</span>
+                        <span>Microsoft Access</span>
+                        <span>WordPress</span>
+
+                    </div>
+
+                </div>
+            </div>
+
         </div>
-        <div class="col-6 col-md-4 col-lg-3">
-          <div class="glass-card skill-card text-center p-4">
-            <i class="bi bi-filetype-css skill-icon"></i>
-            <h3 class="mt-3">CSS</h3>
-          </div>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3">
-          <div class="glass-card skill-card text-center p-4">
-            <i class="bi bi-bootstrap skill-icon"></i>
-            <h3 class="mt-3">Bootstrap</h3>
-          </div>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3">
-          <div class="glass-card skill-card text-center p-4">
-            <i class="bi bi-code-slash skill-icon"></i>
-            <h3 class="mt-3">Java</h3>
-          </div>
-        </div>
-      </div>
+
     </div>
-  </section>
+</section>
   <!-- LANGUAGES -->
 
 <section
@@ -341,47 +389,102 @@ Ich spreche Deutsch, Französisch, ich lerne gerade Englisch und arbeite gerne i
   </section>
 
   <!-- PROJECTS -->
-
-  <section id="projects" class="section-padding reveal">
+    <!-- PROJECTS -->
+<section id="projects" class="section-padding reveal">
     <div class="container">
-      <h2 class="section-title text-center mb-5">Projects</h2>
-      <div class="row g-4">
-      <!-- PROJECT 1 -->
-        <div class="col-lg-6">
-          <div class="glass-card project-card p-4">
-            <h3>Responsive CV Website</h3>
-            <p>Modern responsive portfolio
-              developed using Bootstrap and CSS.</p>
-            <button class="btn btn-outline-light mt-3"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#project1">More Details</button>
-            <div class="collapse mt-3" id="project1">
-              <p>Responsive layout with Bootstrap
-                grid system, cards, navbar and
-                mobile adaptation.</p>
-            </div>
-          </div>
-        </div>
-        <!-- PROJECT 2 -->
-        <div class="col-lg-6">
-          <div class="glass-card project-card p-4">
-            <h3>Java Console Project</h3>
-              <p>Small Java project created during
-                 programming practice.</p>
-              <button class="btn btn-outline-light mt-3"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#project2">More Details</button>
-              <div class="collapse mt-3" id="project2">
-                <p>Console application using
-                   conditions, loops and methods.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
 
+        <h2 class="section-title text-center mb-5">Projects</h2>
+
+        <div class="row justify-content-center g-4">
+
+            <!-- Project 1 -->
+            <div class="col-md-6 col-lg-4 d-flex">
+                <div class="glass-card project-card p-4 w-100">
+                    <h3>🎓 Educational Platform</h3>
+
+                    <p><strong>Technologien:</strong> WordPress, Elementor</p>
+
+                    <p>
+                        Entwicklung einer interaktiven Lernplattform mit Fokus auf Motivation,
+                        Ziele und Fortschrittsverfolgung.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-6 col-lg-4 d-flex">
+                <div class="glass-card project-card p-4 w-100">
+                    <h3>🎨 Art Company Website</h3>
+
+                    <p><strong>Tool:</strong> Figma</p>
+
+                    <p>
+                        Gestaltung eines modernen Website-Prototyps für ein
+                        Kunstunternehmen mit intuitiver Benutzerführung.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-md-6 col-lg-4 d-flex">
+                <div class="glass-card project-card p-4 w-100">
+                    <h3>🌍 Culinary Journey</h3>
+
+                    <p><strong>Technologien:</strong> HTML, CSS</p>
+
+                    <p>
+                        Entwicklung einer responsiven Website über internationale
+                        Küchen und kulinarische Kulturen.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="col-md-6 col-lg-4 d-flex">
+                <div class="glass-card project-card p-4 w-100">
+                    <h3>🚢 Battleship Game</h3>
+
+                    <p><strong>Technologie:</strong> Python</p>
+
+                    <p>
+                        Programmierung des Spiels „Schiffe versenken“ unter Anwendung
+                        grundlegender Programmierkonzepte.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="col-md-6 col-lg-4 d-flex">
+                <div class="glass-card project-card p-4 w-100">
+                    <h3>🗄 Media Library Database</h3>
+
+                    <p><strong>Technologien:</strong> MERISE, SQL, Microsoft Access</p>
+
+                    <p>
+                        Entwurf und Umsetzung einer Datenbank zur Verwaltung
+                        einer Mediathek.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="col-md-6 col-lg-4 d-flex">
+                <div class="glass-card project-card p-4 w-100">
+                    <h3>💼 Personal Portfolio</h3>
+
+                    <p><strong>Technologien:</strong> HTML, SCSS, Bootstrap, GitHub</p>
+
+                    <p>
+                        Entwicklung eines responsiven Portfolios zur Präsentation
+                        meiner Projekte und technischen Kompetenzen.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
   <!-- CONTACT -->
   <section id="contact" class="section-padding reveal">
     <div class="container">
